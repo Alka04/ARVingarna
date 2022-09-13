@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\Unity\\Alfred\\ARVingarna\\ARVingarna.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\ARVingarna\\ARVingarna.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\Unity\\Alfred\\ARVingarna\\ARVingarna.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\ARVingarna\\ARVingarna.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Unity\\Alfred\\ARVingarna\\ARVingarna.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\ARVingarna\\ARVingarna.csproj",
         "projectName": "ARVingarna",
-        "projectPath": "C:\\Users\\Admin\\Documents\\Unity\\Alfred\\ARVingarna\\ARVingarna.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\ARVingarna\\ARVingarna.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\Unity\\Alfred\\ARVingarna\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Uniti-intro-main\\ARVingarna\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

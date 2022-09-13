@@ -10,14 +10,15 @@ using System.Threading.Tasks;
         {
             
         }
-        public void omkrets()
+        public int TO()
         {
-            int c = width * width + height * height;
-            omkrets = ((int)Math.Sqrt(c) + width + height); 
+            return ((int)Math.Sqrt(width * width + height * height) + width + height); 
         }
-        public void area()
+        
+        
+        public int TA()
         {
-            int d = width * height / 2;
+            return width * height / 2;
         }
     }
 

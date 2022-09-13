@@ -8,11 +8,14 @@ using System.Threading.Tasks;
     {
         public Rec(int width, int height ) : base(width, height)
         {
-            Console.WriteLine("Omkrets");
-            int a = width + height * 2;
-            Console.WriteLine(a);
-            Console.WriteLine("Area");
-            int b = width * height;
-            Console.WriteLine(b);
+            
+        }
+        public int RO()
+        {
+            return width * 2 + height * 2;
+        }
+        public int RA()
+        {
+            return width * height;
         }
     }

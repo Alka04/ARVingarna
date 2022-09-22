@@ -13,4 +13,14 @@ using System.Threading.Tasks;
             this.width = width;
             this.height = height;
         }
+
+        public virtual int Circumference()
+        {
+            return 0;
+        }
+
+        public virtual int Area()
+        {
+            return 0;
+        }
     }

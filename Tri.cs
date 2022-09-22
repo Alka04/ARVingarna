@@ -10,13 +10,13 @@ using System.Threading.Tasks;
         {
             
         }
-        public int TO()
+        public override int Circumference()
         {
             return ((int)Math.Sqrt(width * width + height * height) + width + height); 
         }
         
         
-        public int TA()
+        public override int Area()
         {
             return width * height / 2;
         }

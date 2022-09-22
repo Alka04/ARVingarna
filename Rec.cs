@@ -4,18 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-    class Rec: Shape
+    class Rec : Shape
     {
         public Rec(int width, int height ) : base(width, height)
         {
             
         }
-        public int RO()
+        public override int Circumference()
         {
             return width * 2 + height * 2;
         }
-        public int RA()
+        public override int Area()
         {
             return width * height;
         }
     }
+

@@ -2,24 +2,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ARVingarna;
 
-
-    class Rec : IShape
+namespace ARVingarna
+{
+    class Circle : IShape
     {
-        private float width;
-        private float height;
-        public Rec(float width, float height )
+        private float radie;
+        
+        public Circle(float radie)
         {
             
         }
         public float Circumference()
             {
-                return width * 2 + height * 2;
+                return radie * 2 * ((float)Math.PI);
             }
         public float Area()
             {
-                return width * height;
+                return radie * radie * ((float)Math.PI);
             }
     }
-
+}

@@ -2,21 +2,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ARVingarna;
 
 
-    class Tri : Shape
+    class Tri : IShape
     {
-        public Tri(int width, int height) : base(width, height)
+        private float width;
+        private float height;
+        public Tri(float width, float height)
         {
             
         }
-        public override int Circumference()
+        public float Circumference()
         {
-            return ((int)Math.Sqrt(width * width + height * height) + width + height); 
+            return ((float)Math.Sqrt(width * width + height * height) + width + height); 
         }
         
         
-        public override int Area()
+        public float Area()
         {
             return width * height / 2;
         }
